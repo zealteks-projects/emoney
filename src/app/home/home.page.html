@@ -1,0 +1,116 @@
+<ion-content full-screen="true">
+   <ion-grid>
+    <ion-row>
+      <ion-col size="2" no-padding>
+        <ion-button (click)="presentToastWithOptions('This feature is under develop!')" class="e-margin-top-05" fill="clear" no-margin>
+          <img src="assets/images/person-icon.png">
+        </ion-button>
+      </ion-col>
+      <ion-col size="8" text-center padding>
+        <div class="e-header-text">Main Menu</div>
+      </ion-col>
+      <ion-col size="2" no-padding>
+        <div class="e-dollar-img"><img src="../../assets/images/dollar.png"></div>
+        <ion-button (click)="presentToastWithOptions('This feature is under develop!')" class="e-margin-top-05" fill="clear">
+          <img src="assets/images/email_icon_white_png.png">
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="e-numbers-uper-row">
+      <ion-col size="12" no-padding>
+        <ion-row>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-uper-color" (click)="numberClick('1')">1</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-uper-color" (click)="numberClick('2')">2</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-uper-color" (click)="numberClick('3')">3</div>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="12" no-padding>
+        <ion-row>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-uper-color" (click)="numberClick('4')">4</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-uper-color" (click)="numberClick('5')">5</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-uper-color" (click)="numberClick('6')">6</div>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="e-middle-row" size="12" text-center padding>
+        <div class="e-amount-div" text-center>
+          <div class="e-text-bold">Amount</div>
+          <div class="e-amount-value">{{'$ '+amount}}</div>
+        </div>
+      </ion-col>
+      <ion-col class="e-margin-lef-right" size="12" no-padding>
+        <ion-row>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('7')">7</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('8')">8</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('9')">9</div>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col class="e-margin-lef-right" size="12" no-padding>
+        <ion-row>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('.')">.</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('0')">0</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('&lt;')"> &lt; </div>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+    <ion-row class="e-numbers-lower-row">
+      <!-- <ion-col size="12" no-padding>
+        <ion-row>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('7')">7</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('8')">8</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('9')">9</div>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+      <ion-col size="12" no-padding>
+        <ion-row>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('.')">.</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('0')">0</div>
+          </ion-col>
+          <ion-col size="4" no-padding text-center>
+            <div class="e-numbers e-lower-color" (click)="numberClick('&lt')"> &lt; </div>
+          </ion-col>
+        </ion-row>
+      </ion-col> -->
+    </ion-row>
+   </ion-grid>
+</ion-content>
+<ion-footer no-border>
+    <ion-button (click)="presentToastWithOptions('This feature is under develop!')" class="e-request-btn" float-left fill="clear" text-capitalize>Request</ion-button>
+    <ion-button (click)="presentToastWithOptions('This feature is under develop!')" class="e-send-mail" float-right fill="clear">
+      <img src="assets/images/send-mail-icon-png-clipart.png">
+    </ion-button>
+</ion-footer>

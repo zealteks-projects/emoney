@@ -1,0 +1,76 @@
+ion-content{
+    --background: none;
+    background-image: url('/assets/images/Mobile-App-Design-Document.png');
+    background-size: 100% 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    ion-grid{
+        height: 100%;
+        display: grid;
+    }
+    .e-uper-color{
+        color: white;
+    }
+    .e-lower-color{
+        color: var(--ion-color-secondary)
+    }
+    .e-header-text{
+        font-size: 1.5rem;
+        color: white;
+    }
+    .e-numbers-uper-row{
+        padding: 0 3rem 0 3rem;
+    }
+    .e-numbers-lower-row{
+        padding: 0 2rem 2rem 2rem;
+    }
+    .e-middle-row{
+        padding: 0 2rem;
+    }
+    .e-numbers{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .e-amount-div{
+        background: white;
+        padding: 1rem;
+        border-radius: 1rem;
+        box-shadow: 0px 1px 11px -4px;
+    }
+    .e-amount-value{
+        font-size: 2rem;
+        color: var(--ion-color-primary);
+    }
+    .e-margin-top-05{
+        margin-top: 0.5rem
+    }
+    .e-margin-lef-right{
+        padding: 0 3rem;
+    }
+    .e-dollar-img{
+        position: absolute;
+        // top: 0;
+        top: 0.5rem;
+        left: 0.3rem;
+        img{
+            width: 1rem;
+        }
+    }
+}
+.e-height-full{
+    height: 100%;
+}
+ion-footer{
+    .e-send-mail{
+        width: 4rem;
+        height: 4rem;
+    }
+    .e-request-btn{
+        width: 10rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+}
+.e-text-bold{
+    font-weight: bold;
+}
